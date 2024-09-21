@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+        <form id="shapeForm">
+            <label for="width">ширина</label>
+            <input type="number" id="width" required placeholder="Введите ширину">
+
+            <label for="height">высота</label>
+            <input type="number" id="height" required placeholder="Введите высоту">
+
+            <label for="color">цвет</label>
+            <input type="color" id="color" required>
+
+            <label for="shapeType">тип фигуры</label>
+            <select id="shapeType" required>
+                <option value="square">Квадрат</option>
+                <option value="circle">Круг</option>
+            </select>
+
+            <button type="submit">Создать фигуру</button>
+        </form>
+
+        <div id="container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
