@@ -30,7 +30,7 @@ document.querySelector('#shapeForm').addEventListener('submit', function(event) 
     const shapeType = document.querySelector('#shapeType').value;
 
     if (!width || !height || !color) {
-        alert("Пожалуйста, заполните все поля.");
+        alert("заполните поля");
         return;
     }
 
